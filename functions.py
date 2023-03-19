@@ -2,7 +2,6 @@ import math
 from numpy import *
 import scipy
 
-
 def forward_elimination(A, b, n):
     for row in range(0, n-1):
         for i in range(row+1, n):
